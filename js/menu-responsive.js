@@ -6,6 +6,12 @@ function menu_responsive(){
     
     $('.btn-mn').click(menu_desaparecer);
 
+    $('section').click(menu_desaparecer);
+    
+    $('footer').click(menu_desaparecer);
+    
+    $('.top').click(menu_desaparecer);
+
     $('.cruz-icon').click(menu_desaparecer);
 
 }
