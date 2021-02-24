@@ -1,0 +1,319 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--ICON-AWSOME-->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css">
+    <!--jQUERY-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <!--FONT AWSOME-->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital@1&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Fjalla+One&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap" rel="stylesheet">
+    <!--MY CSS-->
+    <link rel="stylesheet" href="css/estilos.css">
+    <link rel="stylesheet" href="css/responsive.css">
+    <!--MY JAVASCRIPT-->
+    <script src="js/menu-responsive.js"></script>
+    <script src="js/paginaciones-y-botones.js"></script>
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <div class="menu-responsive">                                  <!--PORTADA-->
+            <h1>Menu</h1><i class="fas fa-bars btn-hamburger"></i><i class="fas fa-times cruz-icon"></i>
+        </div>
+        <div class="top">
+            <div>
+                <ul class="logo-many">
+                    <img src="img/LOGO-many.png" alt="">
+                </ul>
+                <ul>
+                    <p>Opening Hour:</p>
+                    <p>Mon - Sat 8:00 - 17:30, Sunday - CLOSED</p>
+                </ul>
+            </div>
+            <div>
+                <ul>
+                    <p>Follow us</p>
+                    <div style="margin-top:-10px" class="iconos-container">
+                        <a href="https://www.facebook.com/" target="blank"><i class="fab fa-facebook-f"></i></a>
+                        <a href="https://www.twitter.com/" target="blank"><i class="fab fa-twitter"></i></a>
+                        <a href="https://www.instagram.com/" target="blank"><i class="fab fa-instagram"></i></a>
+                        <a href="https://www.linkedin.com/" target="blank"><i class="fab fa-linkedin"></i></a>
+                    </div>
+                </ul>
+                <ul>
+                    <p>Free Call +1 234 456 78910</p>
+                    <p>Call us Now 24/7 CustomerSupport</p>
+                </ul>
+            </div>
+        </div>
+        <nav>
+            <li>
+                <div>
+                    <i class="fas fa-home"></i>
+                    <a href="index.html" class="btn-mn">HOME</a>
+                </div>
+            </li>
+            <li>
+                <div>
+                    <i class="fas fa-info"></i>
+                    <a href="#about" class="btn-mn">ABOUT US</a>
+                </div>
+            </li>
+            <li>
+                <div>
+                    <i class="fas fa-suitcase"></i>
+                    <a href="#services" class="btn-mn">SERVICES</a>
+                </div>
+            </li>
+            <li>
+                <div>
+                    <i class="fas fa-images"></i>
+                    <a href="#gallery" class="btn-mn">GALLERY</a>
+                </div>
+            </li>
+            <li>
+                <div>
+                    <i class="fas fa-address-book"></i>
+                    <a href="#contact" class="btn-mn">CONTACT US</a>
+                </div>
+            </li>
+        </nav>
+        <div class="video-container">
+            <video src="video/hero-background.mp4" autoplay loop></video>
+            <div class="contenido-video">
+                <div>
+                    <ul class="video-cont-left">
+                        <h1>We create the desired</h1>
+                        <h1>Home for you</h1>
+                        <li></li>
+                        <p>Contact us to find out your ideas 
+                            and build them together
+                        </p>
+                    </ul>
+                    <ul class="video-cont-right">
+                        <h1>Make a Reservation</h1>
+                        <form action="#">
+                            <input type="text" placeholder="Name">
+                            <div>
+                                <input type="email" name="" value="" placeholder="Email">
+                                <input type="tel" name="" value="" placeholder="Telephone">
+                            </div>
+                            <input type="date" placeholder="mm/dd//yyyy">
+                            <input type="text" placeholder="Choose a service">
+                            <textarea name="" id="" cols="30" rows="10" placeholder="Mensaje"></textarea>
+                            <button onclick="boton_sweet()">SEND</button>
+                        </form>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </header>
+    <section>                              
+        <div class="section1-container">
+            <ul class="section1-izquierda animacionOne"><!-------------ANIMATION ONE ------------------------>
+                <i class="fas fa-hammer"></i>
+            </ul>
+            <ul class="section1-derecha animacionTwo">      <!-------------ANIMATION TWO ------------------------>
+                <p>WELCOME TO CONSTRUCTION COMPANY</p>
+                <h1 style="margin-bottom:1cm; font-size:calc(1vw + 30px);">Why work whit us?</h1>
+                <p style="font-size: calc(1vw + 10px);">
+                    We are a company with highly qualified and
+                    responsible personnel whi will perform the best
+                    jobs for your home
+                </p>
+                <div>
+                    <div>
+                        <p>Quality Construction</p>
+                        <img src="img/work-4.jpg" alt="">
+                    </div>
+                    <div>
+                        <p>Proffessional Llability</p>
+                        <img src="img/work-5.jpg" alt="">
+                    </div>
+                    <div>
+                        <p>Dedicated to Clients</p>
+                        <img src="img/work-7.jpg" alt="">
+                    </div>
+                </div>
+            </ul>
+        </div>
+        <div class="section2-container">                   <!--SECTION 2-->
+            <div class="section2-left animacionFour" id="about">                    <!-------------ANIMATION FOUR ------------------------>
+                <p style="color:rgb(247, 113, 17); font-size:15px;padding-bottom:0px;">ABOUT US</p>
+                <h1>Best Provider for Industrial Services</h1>
+                <p>We are a unique company dedicated to our clients</p>
+                <div id="botonoes-color">
+                    <button>Our Mission</button>
+                    <button>Our Vision</button>
+                    <button>Our Value</button>
+                </div>
+                <ul>
+                    <p>
+                        We are an expert group in architectural design and interior
+                        design with a residential approach, where we generate creative, 
+                        authentic and innovative solutions, achieving results tha exceed the 
+                        expectations of each client
+                    </p>
+                </ul>
+                <div id="last-button">
+                    <button type="">CONTACT US!</button>
+                </div>
+            </div>
+            <div class="section2-right animacionFive" id="services">                <!-------------ANIMATION FIVE ------------------------>
+                <p style="color:rgb(247, 113, 17); font-size:15px;padding-bottom:0px;">SERVICES</p>
+                <h1>Know what we offer you</h1>
+                <div>
+                    <ul>
+                        <i class="fas fa-drafting-compass"></i>
+                        <div>
+                            <h1 style="color:black">Interior</h1>
+                            <h1 style="color:black">Design</h1>
+                            <p style="color:black">
+                                We design the best interiors for your 
+                                home full of styles and confort
+                            </p>
+                        </div>
+                    </ul>
+                    <ul>
+                        <i class="fas fa-wrench"></i>
+                        <div>
+                            <h1>Plumbing</h1>
+                            <p>
+                                We help you repair your 
+                                plumbing. Our service is of 
+                                quality.
+                            </p>
+                        </div>
+                    </ul>
+                    <ul>
+                        <i class="fas fa-paint-roller" style="color:rgb(247, 113, 17)"></i>
+                        <div>
+                            <h1>Painting</h1>
+                            <p>
+                                Painting your house is a task 
+                                that we can do for you, in a short time
+                            </p>
+                        </div>
+                    </ul>
+                    <div id="paginacion1">
+                        <li></li>
+                        <li></li>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="section3-container" id="gallery">                     <!--SECTION 3-->
+            <div>
+                <p>OUR PROJECTS</p>
+                <h1>Know what we do</h1>
+                <div>
+                    <img src="img/work-5.jpg" alt="">
+                    <img src="img/work-6.jpg" alt="">
+                    <img src="img/work-7.jpg" alt="">
+                    <img src="img/work-8.jpg" alt="">
+                    <img src="img/work-1.jpg" alt="">
+                </div>
+                <div>
+                    <button type="#">VIEW GALLERY</button>
+                </div>
+            </div>
+        </div>
+        <div class="section4-container animacionThree">
+            <div>
+                <div>
+                    <ul class="section4-left">                              <!--SECTION 4-->
+                        <p>VIEW TESTIMONIALS</p>    <!-------------ANIMATION THREE ------------------------>
+                        <h1>
+                            FOR US IT IS VERY
+                            IMPORTANT TO KNOW THE 
+                            OPINIONS OF OUR CLIENTS
+                        </h1>
+                    </ul>
+                    <ul class="section4-right">   
+                        <img src="img/person_4.jpg" alt="">
+                        <i class="fas fa-play"></i>
+                        <p>JEFF FRESHMAN</p>
+                        <div id="paginacion2">
+                            <li></li>
+                            <li></li>
+                            <li></li>
+                            <li></li>
+                            <li></li>
+                        </div>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="section5-container" id="contact">                               <!--SECTION 5-->
+            <div>
+                <ul class="section5-left">
+                    <p style="color:rgb(247, 113, 17);font-size:15px;">OUR SOCIAL MEDIA</p>
+                    <h1>Follow us on Social Media</h1>
+                </ul>
+                <ul class="section5-right">
+                    <div class="iconos-container">                        
+                        <a href="https://www.twitter.com/" target="blank"><i class="fab fa-twitter"></i></a>
+                        <a href="https://www.facebook.com/" target="blank"><i class="fab fa-facebook-f"></i></a>
+                        <a href="https://www.youtube.com/" target="blank"><i class="fab fa-youtube"></i></a>
+                        <a href="https://www.instagram.com/" target="blank"><i class="fab fa-instagram"></i></a>
+                        <a href="https://www.linkedin.com/" target="blank"><i class="fab fa-linkedin"></i></a>
+                    </div>
+                </ul>
+            </div>
+            <ul class="section5-newsletter">
+                <h1>Subscribe to our Newsletter</h1>
+                <input type="email" placeholder="Enter email address">
+                <input type="button" value="Subscribe" id="btn-subscribirse">
+            </ul>
+        </div>
+    </section>
+    <footer>
+        <div class="footer1-container">
+            <ul>
+                <h1>Office Contact</h1>
+                <li></li>
+                <li><i class="fas fa-map-marker-alt"></i><p>123 Street, New York, USA</p></li>
+                <li><i class="fas fa-phone"></i><p>+012 345 67890</p></li>
+                <li><i class="fas fa-envelope"></i><p>info@example.com</p></li>
+                <div class="iconos-container">
+                    <a href="https://www.twitter.com/" target="blank"><i class="fab fa-twitter"></i></a>
+                    <a href="https://www.facebook.com/" target="blank"><i class="fab fa-facebook-f"></i></a>
+                    <a href="https://www.youtube.com/" target="blank"><i class="fab fa-youtube"></i></a>
+                    <a href="https://www.instagram.com/" target="blank"><i class="fab fa-instagram"></i></a>
+                    <a href="https://www.linkedin.com/" target="blank"><i class="fab fa-linkedin"></i></a>
+                </div>
+            </ul>
+            <ul>
+                <h1>Services Areas</h1>
+                <li></li>
+                <li><i class="fas fa-chevron-right"></i><a href="#">Building Construction</a></li>
+                <li><i class="fas fa-chevron-right"></i><a href="#">House Renovation</a></li>
+                <li><i class="fas fa-chevron-right"></i><a href="#">Architecture Design</a></li>
+                <li><i class="fas fa-chevron-right"></i><a href="#">Interior Design</a></li>
+                <li><i class="fas fa-chevron-right"></i><a href="#">Painting</a></li>
+
+            </ul>
+            <ul>
+                <h1>Useful Pages</h1>
+                <li></li>
+                <li><i class="fas fa-chevron-right"></i><a href="#about">About Us</a></li>
+                <li><i class="fas fa-chevron-right"></i><a href="#services">Services</a></li>
+                <li><i class="fas fa-chevron-right"></i><a href="#gallery">Gallery</a></li>
+                <li><i class="fas fa-chevron-right"></i><a href="#contact">Contact Us</a></li>
+            </ul>
+        </div>
+        <div class="footer2-container">
+            <p>© Copyright<strong style="color:rgb(247, 113, 17);"> Company Name </strong>. All Rights Reserved</p>
+            <p>This Website Was Designed And Developed by Josesilvera.com</p>
+            <img src="img/Logo-JS-White-Wshadow.png" alt="">
+        </div>
+    </footer>
+</body>
+<script src="js/animaciones.js"></script>
+</html>
