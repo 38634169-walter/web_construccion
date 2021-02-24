@@ -6,12 +6,6 @@ function menu_responsive(){
     
     $('.btn-mn').click(menu_desaparecer);
 
-    $('section').click(menu_desaparecer);
-    
-    $('footer').click(menu_desaparecer);
-    
-    $('.top').click(menu_desaparecer);
-
     $('.cruz-icon').click(menu_desaparecer);
 
 }
@@ -22,7 +16,13 @@ function menu_aparecer(){
         left:'0'
     });
     $('.btn-hamburger').toggleClass('remove');
-    $('.cruz-icon').toggleClass('show');    
+    $('.cruz-icon').toggleClass('show'); 
+    $('section').click(menu_desaparecer);
+    
+    $('footer').click(menu_desaparecer);
+    
+    $('.top').click(menu_desaparecer);   
+
 }
 
 function menu_desaparecer(){

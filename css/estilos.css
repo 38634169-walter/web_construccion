@@ -325,7 +325,7 @@ nav>li>div>a{
 /* ANIMACIONES AGREGADAS */
 
 .added1{
-    animation:aparecer1 5s;
+    animation:aparecer1 3s;
 }
 
 @keyframes aparecer1{
@@ -340,7 +340,7 @@ nav>li>div>a{
 }
 
 .added2{
-    animation: aparecer2 5s;
+    animation: aparecer2 3s;
 }
 @keyframes aparecer2{
     0%{
