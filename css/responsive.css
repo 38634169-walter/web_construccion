@@ -65,19 +65,11 @@
     .cruz-icon{
         display:none;
     }
-    /* clases para agregar */
-    
-    .show{
-        display:block;
-    }
-    .remove{
-        display:none;
-    }
 
     /*   MENU   ////////////////////////////////////////////////////////////*/
 
     nav{
-        width:100%;
+        width:80%;
         position:fixed;
         flex-direction: column;
         justify-content: unset;
@@ -89,6 +81,7 @@
         height:calc(100vh - 54px);
         overflow-y:scroll;
         padding:1cm 0px;
+        animation:none;
     }
 
     nav>li>div{
