@@ -1,15 +1,18 @@
 
 $(document).ready(menu_responsive);
 
-let num=0;
+
 function menu_responsive(){
     
     $('.btn-hamburger').click(menu_aparecer);
     $('.cruz-icon').click(menu_desaparecer);
-    $('.btn-mn').click(menu_desaparecer);
-    $('.top').click(menu_desaparecer);
-    $('section').click(menu_desaparecer);
-    $('footer').click(menu_desaparecer);
+    
+    if ($(window).width() <= 800){ 
+        $('.top').click(menu_desaparecer);
+        $('section').click(menu_desaparecer);
+        $('footer').click(menu_desaparecer);
+        $('.btn-mn').click(menu_desaparecer);
+    }
     
 }
 
